@@ -48,3 +48,4 @@ const handleClick = () => setClick(!click)
 export default Navbar;
 
 //FaTimes is for the x icon to close 
+// used if else 
