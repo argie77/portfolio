@@ -8,12 +8,12 @@
 }
 
 body{
-  background: black;
+  background: darkgrey;
 }
 
 h1, h4, p,
 a{
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -34,11 +34,11 @@ cursor: pointer;
 
 .btn-light {
   background: transparent;
-  color: white;
+  color: black;
 }
 
 .btn:hover {
   background: rgba(255, 255, 255, 0.2);
-  color: white;
+  color: black;
   transition: 0.3s;
 }
