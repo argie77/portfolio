@@ -16,7 +16,7 @@ const handleClick = () => setClick(!click)
 
 const [color, setcolor] = useState(false)
 const changeColor = () =>{
-    if(window.scrolly >=1){
+    if(window.scrolly >=100){
         setcolor(true);
     }else{
         setcolor(false)
