@@ -1,7 +1,7 @@
 import "./FooterStyles.css"
 
 import React from 'react'
-import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa"
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa"
 
 //below are components
 const Footer = () => {
@@ -35,6 +35,12 @@ const Footer = () => {
                 I know the importance of writing highly readable and 
                 maintainable code and I strive to learn new technologies 
                 and continually improve.</p>
+                <div className="social">
+                <FaGithub size={30} style={{
+                     color: "black", marginRight: "1rem" }} /> 
+                     <FaLinkedin size={30} style={{
+                     color: "black", marginRight: "1rem" }} /> 
+                </div>
             </div>
         </div>
     </div>
