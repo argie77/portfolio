@@ -14,8 +14,8 @@ const WorkCard = () => {
     <div className="pro-details">
         <p>This is text</p>
         <div className="pro-btns">
-            <NavLink to="https://62ba3f36360f320a1ca97767--thunderous-maamoul-f4789a.netlify.app/" className="btn">View</NavLink>
-            <NavLink to="https://github.com/argie77/weather-app" className="btn">Source</NavLink>
+            <NavLink to="url.com" className="btn">View</NavLink>
+            <NavLink to="url.com" className="btn">Source</NavLink>
         </div>
     </div>
 </div>
